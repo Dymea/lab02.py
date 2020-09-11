@@ -8,23 +8,23 @@
 
 def getLetterGrade(grade):
   if (grade >= 93.0):
-    print("Your letter grade for CMPSC 131 is A.")
+    print("Your letter grade for CMPSC 131 is A.\n")
   elif (grade >= 90.0 and grade <93.0):
-    print("Your letter grade for CMPSC 131 is A-.")
+    print("Your letter grade for CMPSC 131 is A-.\n")
   elif (grade >= 87.0 and grade < 90.0):
-    print("Your letter grade for CMPSC 131 is B+.")
+    print("Your letter grade for CMPSC 131 is B+.\n")
   elif (grade >= 83.0 and grade < 87.0):
-    print("Your letter grade for CMPSC 131 is B.")
+    print("Your letter grade for CMPSC 131 is B.\n")
   elif (grade >= 80.0 and grade < 83.0):
-    print("Your letter grade for CMPSC 131 is B-.")
+    print("Your letter grade for CMPSC 131 is B-.\n")
   elif (grade >= 77.0 and grade < 80.0):
-    print("Your letter grade for CMPSC 131 is C+.")
+    print("Your letter grade for CMPSC 131 is C+.\n")
   elif (grade >= 70.0 and grade < 77.0):
-    print("Your letter grade for CMPSC 131 is C.")
+    print("Your letter grade for CMPSC 131 is C.\n")
   elif (grade >= 60.0 and grade < 70.0):
-    print("Your letter grade for CMPSC 131 is D.")
+    print("Your letter grade for CMPSC 131 is D.\n")
   else:
-    print("Your letter grade for CMPSC 131 is F.")
+    print("Your letter grade for CMPSC 131 is F.\n")
 
 def run():
   grade = input("Enter your CMPSC 131 grade: ")
